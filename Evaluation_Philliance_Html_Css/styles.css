@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 75px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.page {
+  height: 890px;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+}
+footer {
+  height: 250px;
+  background-color: #373737;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+
+  border-spacing: 15px;
+  padding-bottom: 15px;
+  border-bottom: #f3f3f3 3px solid;
+
+  /* width: 50%; */
+}
+p {
+  color: white;
+}
+#livre {
+  text-align: center;
+  width: 100px;
+}
+#cadenas {
+  text-align: center;
+  width: 100px;
+}
+#pouce {
+  text-align: center;
+  width: 100px;
+}
+#camion {
+  text-align: center;
+  width: 100px;
+}
+
+.compte {
+  border: 1px solid grey;
+  width: 340px;
+  height: 55px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+.menuD {
+  justify-content: space-between;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.banner {
+  padding-top: 30px;
+  width: 100%;
+  background-image: url(./images/header-page-catalogue.png);
+  height: 360px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bande {
+  width: 3px;
+  height: 75px;
+  background-color: goldenrod;
+  
+}
+
+button {
+  /* background-color: white; */
+  border: transparent;
+  justify-content: space-between;
+
+  border-left: 2px solid silver;
+  border-right: 2px solid grey;
+  padding-right: 6px;
+  padding-left: 6px;
+
+  color: black;
+}
+.menu-buttons {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+    
+  border-left: 3px solid goldenrod;
+  
+}
+.barree {
+  text-decoration: line-through;
+}
+#prem {
+    position: relative;
+    right: -424px;
+    top: 300px;
+  }
+  #deux {
+    right: -75px;
+top: 40px;
+    position: relative;
+  }
+  #ter {
+    right: -105px;
+    position: relative;
+  }
+  #quatro {
+    position: relative;
+    right: -424px;
+    top: -85px
+  }
+  #bene {
+    position: relative;
+   left: 135px;
+    top: 300px;
+  }
+  #niar {
+    right: -470px;
+    top: 45px;
+    
+    position: relative;
+  }
+  #niete {
+      top: 10px;
+    right: -160px;
+    position: relative;
+  }
+  #niente {
+    position: relative;
+    right: -480px;
+    top: -73px;
+  }
+    h2{
+        color: #eba923;
+    }
+
+    .bandeau{
+        background-color: black;
+        color: whitesmoke;
+        width: 87px;
+    }
+    #bd1{
+        position: relative;
+        top: 280px;
+    }
+    #bd2{
+        top: 20px;
+       position: relative
+       ;
+       right: -310px;
+    }
+    #bd3{
+        position: relative;
+        top: -12px
+    }
+    #bd4{
+        position: relative;
+        bottom: 92px;
+        left: 315px;
+    }
